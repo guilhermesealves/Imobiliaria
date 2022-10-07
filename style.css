@@ -6,12 +6,11 @@
     box-sizing: border-box; 
 }
 body{
-    background-color: #048853;
+    background-image: linear-gradient( to left, #000000 -84%, #048853); 
 
 
 }
 header{
-    background-color: #048853;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,26 +45,50 @@ a{
     width: 133px;
     height: 40px;
 }
-.titulo{
-    display: flex;
-    margin-left: 143px;
-    margin-top: 129px;
+
+.img-casa{
+    margin-right: 10px;
+    align-items: right;
 }
-.titulo p{
+.bolinha1{
+    position: absolute;
+
+}
+.carrosel{
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+    text-align: center;
+    padding: 109px;
+    font-family: 'Poppins', sans-serif;
+}
+.carrosel h1{
+    font-size: 48px;
+    color: #048853;
+ 
+}
+.post{
+    background-color: #048853;
+    width: 100px;
+    height: 100px;
+}
+.titulo{
+    width: 100%;
+    height: 500px;
+}
+.tudo-texto{
+    padding-left: 135px;
+    padding-top: 100px
+
+}
+.tudo-texto h1{
+    font-size: 52px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.tudo-texto p{
     margin-top: 18px;
     font-size: 16px;
-}
-.titulo button{
-    margin-top: 38px;
-    width: 237px;
-    height: 70px;
-    color: #048853;
-    font-size: 16px;
-}
-.titulo h1{
-    color: white;
-    font-size: 52px;
-    font-weight: 700px;
     font-family: 'Poppins', sans-serif;
-
+    color: white;
 }
