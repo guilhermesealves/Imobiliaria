@@ -6,12 +6,12 @@
     box-sizing: border-box; 
 }
 body{
-    background-color: #048853;
+    background-image: linear-gradient(180deg,  #048853 , #000000D6);
+
 
 
 }
 header{
-    background-color: #048853;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,26 +46,83 @@ a{
     width: 133px;
     height: 40px;
 }
-.titulo{
-    display: flex;
-    margin-left: 143px;
-    margin-top: 129px;
+
+.tudo-texto{
+    height: 700px;
+    width: 100%;
 }
-.titulo p{
-    margin-top: 18px;
-    font-size: 16px;
+.texto-img{
+    background-image: url(casa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    height: 100px;
+    width: 100px;
+    padding: 300px;
+    margin-top: 100px;
+    margin-left: 130px;
 }
-.titulo button{
-    margin-top: 38px;
+.texto-texto{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 40px ;
+    padding: 100px;
+}
+.texto-texto p{
+ font-size: 16px;
+ 
+}
+.pesquisar{
     width: 237px;
     height: 70px;
+    margin-top: 38px;
     color: #048853;
-    font-size: 16px;
-}
-.titulo h1{
-    color: white;
-    font-size: 52px;
-    font-weight: 700px;
     font-family: 'Poppins', sans-serif;
 
+}
+.carrosel1, .carrosel2, .carrosel3{
+    width: 380px;
+    height: 313px;
+    background-color: antiquewhite;
+    margin-left: 20px;
+
+}
+.carrosel{
+    width: 100%;
+    height: 1000px;
+    background: #E5E5E5;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.carrosel-texto{
+    padding-top: 109px;
+    padding-bottom: 46px ;
+}
+.carrosel-texto h1{
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    color: #048853;
+}
+.carrosel-texto p{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+
+}
+.tudo-carrosel{
+    display: flex;
+    justify-content: center;
+}
+.carrosel1{
+    background-color: white;
+
+}
+.carrosel2{
+    background-color: white;
+}
+.carrosel3{
+    background-image: linear-gradient(180deg,  #048853 , #000000D6);
+}
+.bola{
+    padding-top: 59px;
 }
