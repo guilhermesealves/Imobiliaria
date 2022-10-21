@@ -127,7 +127,7 @@ a{
 .bola{
     padding-top: 59px;
 }
-.carrosel3 h1, p{
+.carrosel3 {
     padding-top: 13px;
     font-family: 'Poppins', sans-serif;
 
@@ -136,7 +136,7 @@ a{
  padding-top: 59px;
 
 }
-.carroel2 h1, p{
+.carroel2{
     padding-top: 13px;
     
 }
@@ -260,11 +260,30 @@ a{
     padding-right: 10px;
 
 }
-.final-1{
-    background-color: black;
-    margin-top: 164px;
+.footer1{
+    display: flex;
+    background-image: url(fundo-footer1.png);
     width: 100%;
     height: 741px;
 }
 
+.tudo-footer{
+    background-color: black;
+    width: 100%;
+    height: 600px;
+    margin-top: 159px;
+    color: WHITE;
+    font-family: 'Poppins', sans-serif;
+}
+.h1-footer{
+    padding-left: 97px;
+}
+.ul-footer1{
+    padding-top: 79px;
+    padding-left: 97px;
+}
+.ul2-footer1{
+    padding-left: 97px;
 
+
+}
