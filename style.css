@@ -252,14 +252,6 @@ a{
 
 }
 
-.textos-casa1{
-    background-color: black;
-    height: 100px;
-    width: 363px;
-    color: white;
-    padding-right: 10px;
-
-}
 .footer1{
     display: flex;
     background-image: url(fundo-footer1.png);
@@ -285,5 +277,16 @@ a{
 .ul2-footer1{
     padding-left: 97px;
 
+
+}
+.texto-casa1{
+    padding-right: 180px;
+}
+.p-texto{
+    padding-right: 195px;
+
+}
+.final-texto{
+    padding-right: 305px;
 
 }
