@@ -210,9 +210,11 @@ a{
     width: 363px;
     height: 469px;
     padding-top: 5px;
+    box-shadow: 10px 5px 5px black;
+
+
 }
 .casa1{
-    background-color: #048853;
     width: 363px;
     height: 469px;
     padding-top: 5px;
@@ -220,7 +222,6 @@ a{
 
 }
 .casa3{
-    background-color: #048853;
     width: 363px;
     height: 469px;
     padding-top: 5px;
@@ -228,7 +229,6 @@ a{
 
 }
 .casa4{
-    background-color: #048853;
     width: 363px;
     height: 469px;
     padding-top: 5px;
@@ -236,7 +236,6 @@ a{
 
 }
 .casa5{
-    background-color: #048853;
     width: 363px;
     height: 469px;
     padding-top: 5px;
@@ -244,7 +243,6 @@ a{
 
 }
 .casa6{
-    background-color: #048853;
     width: 363px;
     height: 469px;
     padding-top: 5px;
@@ -280,13 +278,74 @@ a{
 
 }
 .texto-casa1{
-    padding-right: 180px;
+    padding-right: 160px;
+    font-family: 'Poppins', sans-serif;
+
 }
 .p-texto{
     padding-right: 195px;
 
 }
+.p-texto2{
+    padding-right: 310px;
+    color: red;
+
+
+}
 .final-texto{
     padding-right: 305px;
 
+}
+.caract1{
+    margin-top: 10px;
+    width: 365px;
+    height: 100px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.caract2{
+    margin-top: 10px;
+    width: 365px;
+    height: 80px;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+
+}
+.caract3{
+    margin-top: 10px;
+    width: 365px;
+    height: 100px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.caract4{
+    margin-top: 10px;
+    width: 365px;
+    height: 100px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.caract5{
+    margin-top: 10px;
+    width: 365px;
+    height: 100px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.caract6{
+    margin-top: 10px;
+    width: 365px;
+    height: 100px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.ul-caract1{
+    display: flex;
+    margin: auto;
+}
+.ul-caract1 li{
+    margin: auto;
+    padding-top: 24px;
+    font-size: 14px;
 }
